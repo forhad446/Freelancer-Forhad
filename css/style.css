@@ -3,6 +3,9 @@
     padding: 0;
     font-size: 16px ;
     font-family: monospace;
+    text-decoration: none ;
+    color: white ;
+    list-style-type: none ;
 }
 .hearder_container{
     background-color: rgb(51, 51, 54);
@@ -22,7 +25,10 @@
     cursor: pointer ;
     font-size: 18px ;
 }
-.item:hover{
+.item a{
+    color: white ;
+}
+.item a:hover{
     color: blue ;
 }
 .btn{
@@ -30,6 +36,7 @@
     background-color: red ;
     border: none ;
     color: white ;
+    border-radius: 10px ;
 }
 .btn:hover{
     background-color: rgb(235, 13, 13) ;
@@ -116,4 +123,83 @@ End header section
 }
 .serevice_box div[class="item"]:hover{
     color: blue ;
+}
+/* end of service section */
+.myskill_container{
+    background: linear-gradient(45deg, rgb(65, 56, 56) ,rgb(70, 70, 76));
+    display: flex ;
+    justify-content: space-around ;
+    align-items: center ;
+    min-height: 400px ;
+    padding: 20px 0;
+}
+.myskill{
+    
+}
+.skill_title{
+    margin-bottom: 30px ;
+    font-style: italic;
+}
+.skill_headline{
+    font-size: 60px ;
+    margin: 0 0 30px;
+}
+.skill_btn{
+    margin-top: 20px;
+}
+.myskill_info{
+    min-width: 500px ;
+}
+.progress_item{
+    margin: 20px 0;
+    font-size: 20px ;
+}
+.myskill_info li progress{
+    width: 100%;
+}
+/* end the myskill section */
+.footer_container{
+    background-color: rgb(55, 49, 49) ;
+    min-height: 50vh;
+    text-align: center;
+    padding-top: 20px ;
+}
+.for_update{
+    font-size: 18px ;
+    color: rgb(176, 144, 144) ;
+    display: block ;
+    margin: 28px 0;
+}
+.for_subscribe{
+    font-size: 60px ;
+    margin: 20px 0 50px;
+}
+input[type="email"]{
+    width: 300px;
+    height: 50px ;
+    border-radius: 24px;
+    border: none ;
+    background-color: rgb(63, 62, 63);
+    color: white ;
+    text-align: center;
+}
+input[type="email"]:hover{
+    background-color: rgb(153, 150, 145);
+    /* border: 1px solid ; */
+}
+.sub_btn{
+    height: 50px ;
+    margin-left: 20px;
+}
+.phone{
+    display: flex ;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+.divid{
+    display: block ;
+    margin-bottom: 20px ;
+}
+.copyright{
+    padding: 20px 0;
 }

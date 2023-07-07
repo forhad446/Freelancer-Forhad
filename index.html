@@ -21,10 +21,10 @@
                 </h2>
             </div>
             <div class="menu_item">
-                <div class="item">Home</div>
-                <div class="item">About</div>
-                <div class="item">Service</div>
-                <div class="item">Contact</div>
+                <div class="item"><a href="#">Home</a></div>
+                <div class="item"><a href="#about">About</a></div>
+                <div class="item"><a href="#service_section">Service</a></div>
+                <div class="item"><a href="#contact">Contact</a></div>
             </div>
             <div class="hire_me_btn">
                 <button class="btn">Hire Me</button>
@@ -34,7 +34,7 @@
     <!-- this is the main section -->
     <main>
         <!-- this is the banner container section -->
-        <div class="banner_container">
+        <div class="banner_container" id="about">
             <div class="banner_info">
                 <h1 class="banner_title">
                     Hello! I'm <br>
@@ -52,7 +52,7 @@
             </div>
         </div>
         <!-- this is the service section -->
-        <div class="service_container">
+        <div class="service_container" id="service_section">
             <h4 class="dream">My dream</h4>
             <h1 class="learn_future">what We Will Learn In Future</h1>
             <div class="service">
@@ -94,6 +94,62 @@
                 </div>
             </div>
         </div>
+        <!-- this is the my skill section -->
+        <div class="myskill_container" id="myskill">
+            <div class="myskill">
+                <h3 class="skill_title">Special Skills</h3>
+                <h1 class="skill_headline">My Special Skill <br> Field Here.</h1>
+                <button class="btn skill_btn">Get More info</button>
+            </div>
+            <div class="myskill_info">
+                <li class="progress_item">
+                    <label for="file">HTML:</label><br>
+                    <progress value="90" max="100"> 90% </progress>
+                </li>
+                <li class="progress_item">
+                    <label for="file">CSS:</label><br>
+                    <progress value="80" max="100"> 80% </progress>
+                </li>
+                <li class="progress_item">
+                    <label for="file">JAVASCRIPT:</label><br>
+                    <progress value="60" max="100"> 60% </progress>
+                </li>
+                <li class="progress_item">
+                    <label for="file">JQUERY:</label><br>
+                    <progress value="50" max="100"> 50% </progress>
+                </li>
+                <li class="progress_item">
+                    <label for="file">AJAX:</label><br>
+                    <progress value="45" max="100"> 45% </progress>
+                </li>
+                <li class="progress_item">
+                    <label for="file">PHP:</label><br>
+                    <progress value="70" max="100"> 70% </progress>
+                </li>
+            </div>
+        </div>
     </main>
+    <footer>
+        <div class="footer_container">
+            <div class="contact_section" id="contact">
+                <strong class="for_update">Get Latest Updates</strong>
+                <h1 class="for_subscribe">Subscribe For Newsletter</h1>
+                <input type="email" name="email" id="email" placeholder="demo@example.com">
+                <button class="btn sub_btn">Subscribe Now</button>
+            </div>
+            <div class="phone">
+                <li class="phone_item">
+                    <strong>Call :</strong> 01745871542
+                </li>
+                <li class="phone_item">
+                    <strong>E-Mail :</strong> demo@example.com
+                </li>
+            </div>
+            <div class="copyright">
+                <hr class="divid">
+                <h4>&copy; All right reserved by Forhad Islam.</h4>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
