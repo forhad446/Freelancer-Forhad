@@ -111,6 +111,9 @@ End header section
     font-size: 30px;
     margin: 0 0 15px;
 }
-div[class="item"]{
+.serevice_box div[class="item"]{
     color: rgb(156, 134, 134);
+}
+.serevice_box div[class="item"]:hover{
+    color: blue ;
 }
